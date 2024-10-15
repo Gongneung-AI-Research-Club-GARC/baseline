@@ -1,6 +1,6 @@
 ## 20241014
-> https://www.utwente.nl/en/eemcs/ps/research/dataset/ 
-> 위 사이트에서 데이터 받기(Physical Activity Recognition Dataset Using Smartphone Sensors_Activity recognition dataset)
+> [https://www.utwente.nl/en/eemcs/ps/research/dataset/]
+> </br> 위 사이트에서 데이터 받기(Physical Activity Recognition Dataset Using Smartphone Sensors_Activity recognition dataset)
 > 
 > 스마트폰 센서를 이용한 신체 활동 인식 데이터 세트
 > -> 4가지 신체 위치(청바지 주머니, 팔, 손목, 벨트)에서 [걷기, 달리기, 서기, 앉기, 위아래로 걷기] 활동 데이터
