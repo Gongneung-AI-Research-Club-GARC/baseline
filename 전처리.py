@@ -10,8 +10,8 @@ def preprocess_imu_data(input_file, output_file):
     # Filter the dataset with selected columns
     imu_data_filtered = imu_data[selected_columns]
 
-    # Define label mapping (e.g., 'walking' -> 0, 'running' -> 1)
-    label_mapping = {'walking': 0, 'running': 1}  # Add more labels as needed
+    # Define label mapping (e.g., 'walking' -> 0, 'running' -> 1, 'Sitting' -> 2, 'Standing' -> 3, 'Downstairs' -> 4, 'Upstairs' -> 5)
+    label_mapping = {'walking': 0, 'running': 1, 'Sitting': 2, 'Standing': 3, 'Downstairs': 4, 'Upstairs': 5 }  # Add more labels as needed
     imu_data_filtered['Unnamed: 69'] = imu_data_filtered['Unnamed: 69'].map(label_mapping)
 
     # Drop any rows with missing data
