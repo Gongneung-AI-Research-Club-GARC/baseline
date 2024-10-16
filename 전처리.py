@@ -2,7 +2,7 @@ import pandas as pd
 
 def preprocess_imu_data(input_file, output_file):
     # Load the dataset with the first row as header
-    imu_data = pd.read_csv(input_file, header=0)
+    imu_data = pd.read_excel(input_file, header=0)
 
     # Select the columns related to Ax, Ay, Az, Gx, Gy, Gz and the label column
     selected_columns = ['Ax', 'Ay', 'Az', 'Gx', 'Gy', 'Gz', 'Activity_Label']  # Last column is the label
