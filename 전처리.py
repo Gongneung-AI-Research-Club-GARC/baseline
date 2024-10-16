@@ -23,8 +23,8 @@ def preprocess_imu_data(input_file, output_file):
 
 if __name__ == "__main__":
     # Define input and output file paths
-    input_file = 'Participant_8.csv'  # Replace with your input file path
-    output_file = 'Participant_8_processed.csv'  # Define the output file path
+    input_file = 'Pocket.xlsx'  # Replace with your Excel file path
+    output_file = 'Pocket_processed.csv'  # Define the output file path(Wrist, Belt, Arm 으로 맞게 수정 후 사용)
 
     # Preprocess the dataset
     preprocess_imu_data(input_file, output_file)
