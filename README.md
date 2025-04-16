@@ -26,12 +26,20 @@ In order to train a model run:
 ```
 main.py train <path to labels file> 
 ```
+```
+python main.py train Dataset/SHAR_train.csv
+```
+
 During training, the models and log file will be saved to a dedicated output folder (created if does not exist)
 
 In order to test a trained model:
 ```
 main.py train <path to imu dataset .csv file> --checkpoint_path <path to your model>
 ```
+```
+python main.py test Dataset/SHAR_test.csv --checkpoint_path out/run_16_04_25_19_57_final.pth
+```
+
 To see the full options, run:
 ```
 main.py -h
