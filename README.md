@@ -26,6 +26,7 @@ In order to train a model run:
 ```
 main.py train <path to labels file> 
 ```
+Ex
 ```
 python main.py train Dataset/SHAR_train.csv
 ```
@@ -36,6 +37,7 @@ In order to test a trained model:
 ```
 main.py train <path to imu dataset .csv file> --checkpoint_path <path to your model>
 ```
+Ex
 ```
 python main.py test Dataset/SHAR_test.csv --checkpoint_path out/run_16_04_25_19_57_final.pth
 ```
